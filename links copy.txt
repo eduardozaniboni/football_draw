@@ -1,0 +1,3 @@
+https://gpi01.cloud.el.com.br/ServerExec/acessoBase/
+https://gpi02.cloud.el.com.br/ServerExec/acessoBase/
+https://gpi04.cloud.el.com.br/ServerExec/acessoBase/
