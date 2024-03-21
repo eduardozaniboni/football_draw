@@ -163,7 +163,7 @@ def verify_links(new_version):
                 current_version = wait.until(EC.visibility_of_element_located((By.XPATH, "//div[@id='panelBuildVersion']/div[2]")))
                 current_version = int(current_version.text.replace(".", ""))
 
-                if current_version <= new_version:
+                if current_version >= new_version:
                     current_version = ".".join(str(current_version))
                     gpi_updated.append(f"{url_system} - Versão Atual: {current_version}")
                 else:
